@@ -1,0 +1,50 @@
+# --- TEMPLATE BEGIN ----
+# --- COMMIT BEGIN ----
+# :section-标题(必选)
+# [<tag>] (可以添加多个，具体tag参见template底部) <标题> (Max 70 Chars / 50汉字，tag除外)
+#
+# 范例:
+# 	[feat] 实现【加速服务】data层代码及单元测试
+
+# :section-为什么(可选)
+# 解释这轮提交是为了什么？(Max 72 chars / 50汉字)
+# - 提示：	可以是issue Id，Gerrit change Id, ticket Id，Teambition的需求点URL，一个文章的URL
+# - 最佳实践： 	推荐在这里添加issue Id，Gerrit change Id, ticket Id原则上应该先建好issue, feature，再获取Id
+#
+# 范例：
+	Nautilus项目 issue #23
+
+# :section-正文(必选)
+# 简要描述修改了什么，如果有必要附上设计说明、说明性代码帮助reviewer理解设计。
+
+
+
+# --- COMMIT END ----
+# Tag 
+#    feat     	new feature
+#    fix      	bug fix
+#    refactor 	代码重构
+#    typo	命名错误
+#    style    	格式化代码		(功能代码无变化)
+#    doc      	文档创建/修改		(功能代码无变化)
+#    test     	添加或重构测试代码	(功能代码无变化)
+#    version  	打版本标签		(功能代码无变化)
+#    dbg        debug代码更新		(功能代码无变化)
+#    prof       性能探测代码更新	(功能代码无变化)
+#    license  	添加license	 	(功能代码无变化)
+#    hack     	临时的solution		(尽量减少此类提交)
+#    WIP	还未完成的阶段性提交
+#
+# 
+# 范例：
+#    [fix][hack] 修正Router无法Graceful Shutdown问题
+#
+#
+# --------------------
+# 
+# Style提示:
+#   - 标题是英文要大写，表达要完整（不应该是一些词组）
+#   - 标题与正文之间要空行，使用
+#   - 对于多项内容的描述，使用bullet-points
+# 
+# --- TEMPLATE END ----
