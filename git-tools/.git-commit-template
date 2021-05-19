@@ -1,26 +1,36 @@
 # --- TEMPLATE BEGIN ----
-# --- COMMIT BEGIN ----
-# :section-标题(必选)
-# [<tag>] (可以添加多个，具体tag参见template底部) <标题> (Max 70 Chars / 50汉字，tag除外)
+# 标题(必选)
+# 语法：[<tag>]<标题名称>
+# 说明：
+#    标题可以中文或英文，但请不要中英文混合，英文不超过70个字符，中文不超过50个汉字；
+#    标题如果是英文要大写，表达要完整（不应该是一些词组）；
+#    tag是commit的标签，commit必须添加标签，可以为commit添加一个或多个标签。标签说明见模版底部。
 #
 # 范例:
-# 	[feat] 实现【加速服务】data层代码及单元测试
+# [feat]添加获取用户所有加速服务API
 
-# :section-为什么(可选)
-# 解释这轮提交是为了什么？(Max 72 chars / 50汉字)
-# - 提示：	可以是issue Id，Gerrit change Id, ticket Id，Teambition的需求点URL，一个文章的URL
-# - 最佳实践： 	推荐在这里添加issue Id，Gerrit change Id, ticket Id原则上应该先建好issue, feature，再获取Id
+
+
+# 为什么(可选)
+# 说明：
+#    解释这轮提交的原因是什么，英文不超过72个字符，中文不超过50个汉字；
+#    原因部分建议添加的内容可以包括：Change ID (e.g., Gerrit）、Issue ID (e.g., Github)、相关联问题、需求或资源的链接。
 #
 # 范例：
-	Nautilus项目 issue #23
-
-# :section-正文(必选)
-# 简要描述修改了什么，如果有必要附上设计说明、说明性代码帮助reviewer理解设计。
+#	Issue #23
 
 
 
-# --- COMMIT END ----
-# Tag 
+# 正文(必选)
+# 说明：
+#    简要描述做了什么修改，如果有必要附上设计说明，这样可以帮助reviewer快速理解设计；
+#    标题与正文之间要空行；
+#    对于多项内容的描述，使用bullet-points。
+
+
+
+
+# --- Tags ----
 #    feat     	new feature
 #    fix      	bug fix
 #    refactor 	代码重构
@@ -35,16 +45,4 @@
 #    hack     	临时的solution		(尽量减少此类提交)
 #    WIP	还未完成的阶段性提交
 #
-# 
-# 范例：
-#    [fix][hack] 修正Router无法Graceful Shutdown问题
-#
-#
-# --------------------
-# 
-# Style提示:
-#   - 标题是英文要大写，表达要完整（不应该是一些词组）
-#   - 标题与正文之间要空行，使用
-#   - 对于多项内容的描述，使用bullet-points
-# 
 # --- TEMPLATE END ----
